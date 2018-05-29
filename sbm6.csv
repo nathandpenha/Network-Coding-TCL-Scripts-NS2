@@ -1,0 +1,27 @@
+ , , ,Welcome To My Trace File 
+0
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Total Packets Received D1,Destination 2 Unique,Destination 2 Loss,Total Packets Received D2
+0.0,,,0,0,,0,0
+0.1,,,0,0,,0,0
+0.2,,,0,0,,0,0
+0.3,,,0,0,,0,0
+0.4,,,0,0,,0,0
+0.5,,,0,0,,0,0
+0.6,,,0,0,,0,0
+0.7,,,0,0,,0,0
+0.8,,,0,0,,0,0
+0.9,,,0,0,,0,0
+1.0,,,0,0,,0,0
+1
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Total Packets Received D1,Destination 2 Unique,Destination 2 Loss,Total Packets Received D2
+0.0,13214,,86,199,,94,327
+0.1,13214,,86,199,,94,327
+0.2,13214,,86,199,,94,327
+0.3,13292,,56,246,,56,341
+0.4,16883,,32,227,,32,339
+0.5,16875,,26,228,,26,338
+0.6,17189,,21,233,,21,347
+0.7,16894,,23,234,,23,348
+0.8,16888,,24,229,,24,340
+0.9,16888,,24,229,,24,340
+1.0,16888,,24,229,,24,340

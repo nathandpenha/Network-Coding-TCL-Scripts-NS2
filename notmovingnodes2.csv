@@ -1,0 +1,101 @@
+ , , ,Welcome To My Trace File 
+, History Time Limit ,1
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,2
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,3
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,4
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,5
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,6
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,7
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,8
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,9
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,
+, History Time Limit ,10
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss
+0.0,258,0,0,0,0,
+0.1,258,0,0,0,0,
+0.2,258,0,0,0,0,
+0.3,258,0,0,0,0,
+0.4,258,0,0,0,0,
+0.5,258,0,0,0,0,
+0.6,258,0,0,0,0,
+0.7,258,0,0,0,0,

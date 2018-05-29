@@ -1,0 +1,78 @@
+
+#!/bin/bash
+
+echo " , , ,Welcome To My Trace File " >$2
+
+for i in $(seq 1 1 10)
+	do
+	#Change Hist Time Limit Value
+	cd ~/ns-allinone-2.35/ns-2.35/sbcast
+	sed -i "10s/.*/#define TIME_LIM $i/g" sbcast.cc
+	cd ../aa/
+	echo -n ", History Time Limit ,">>$2	
+	echo $i >>$2
+	echo -n "Threshold" >> $2
+	echo -n "," >>$2
+	echo -n "Packets in network" >> $2
+	echo -n "," >>$2
+	echo -n "Destination 1 Unique" >> $2
+	echo -n "," >>$2
+	echo -n "Destination 1 Loss" >> $2
+	#echo -n "," >>$2
+	#echo -n "Total Packets Received D1" >> $2
+	echo -n "," >>$2
+	echo -n "Destination 2 Unique" >> $2
+	echo -n "," >>$2
+	echo -n "Destination 2 Loss" >> $2
+	#echo -n "," >>$2
+	#echo -n "Total Packets Received D2" >> $2
+	echo -n "," >>$2
+	echo -n "Destination 3 Unique" >> $2
+	echo -n "," >>$2
+	echo -n "Destination 3 Loss" >> $2
+	
+	echo >>$2
+
+	for j in $(seq 0 0.1 0.7)
+		do
+		echo "hello "
+		cd ~/ns-allinone-2.35/ns-2.35/sbcast
+		sed -i "9s/.*/#define TOPO_LIM $j/g" sbcast.cc
+		cd ..
+		make
+		sudo make install
+		cd aa/
+		ns $1
+		# Insert Threshold
+		echo -n $j >> $2
+		echo -n "," >> $2
+		#Insert Total Network Packets
+		tail -2 count.tr | head -1 | grep -o  '[0-9]*'| tr -d '\n'  >> $2
+		echo -n "," >> $2
+		#Unique Packets D1
+		tail -1 dest.tr | grep -o '1' | wc -l | tr -d '\n'>> $2
+		echo -n "," >> $2
+		#Packets Lost D1
+		tail -1 dest.tr | grep -o '0' | wc -l | tr -d '\n' >>$2
+		echo -n "," >>$2
+		#Total Received Packets D1
+		#wc -l dest.tr | grep -o '[0-9]*' |tr -d '\n' >> $2
+		#echo -n "," >> $2
+		#Unique Packets D2
+		tail -1 dest2.tr | grep -o '1' | wc -l | tr -d '\n' >> $2
+		echo -n "," >> $2
+		#Packets Lost D2
+		tail -1 dest2.tr | grep -o '0' | wc -l | tr -d '\n' >>$2
+		echo -n "," >>$2
+		#Total Packets Received D2
+		#wc -l dest2.tr | grep -o '[0-9]*' |head -1 | tr '\n' >>$2
+		#Unique Packets D3
+		tail -1 dest3.tr | grep -o '1' | wc -l | tr -d '\n' >> $2
+		echo -n "," >> $2
+		#Packets Lost D3
+		tail -1 dest3.tr | grep -o '0' | wc -l | tr -d '\n' >>$2
+		echo -n "," >>$2
+		
+		echo >> $2
+	done
+done

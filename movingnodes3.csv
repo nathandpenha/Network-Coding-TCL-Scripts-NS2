@@ -1,0 +1,101 @@
+ , , ,Welcome To My Trace File 
+, History Time Limit ,1
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13863,210,40,175,75,188,62,
+0.1,13863,210,40,175,75,188,62,
+0.2,11974,182,68,160,90,162,88,
+0.3,21573,236,14,236,14,236,14,
+0.4,22844,243,7,243,7,243,7,
+0.5,23001,244,6,244,6,244,6,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,2
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13863,210,40,175,75,188,62,
+0.1,13863,210,40,175,75,188,62,
+0.2,14752,194,56,192,58,187,63,
+0.3,21780,241,9,241,9,240,10,
+0.4,22666,240,10,240,10,239,11,
+0.5,22615,239,11,239,11,238,12,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,3
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13869,210,40,175,75,188,62,
+0.1,13869,210,40,175,75,188,62,
+0.2,12516,170,80,158,92,170,80,
+0.3,22010,243,7,243,7,243,7,
+0.4,22775,241,9,241,9,240,10,
+0.5,23379,244,6,244,6,244,6,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,4
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13869,210,40,175,75,188,62,
+0.1,13869,210,40,175,75,188,62,
+0.2,11120,156,94,148,102,158,92,
+0.3,22016,244,6,244,6,244,6,
+0.4,22912,244,6,244,6,243,7,
+0.5,23349,247,3,247,3,246,4,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,5
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13869,210,40,175,75,188,62,
+0.1,13869,210,40,175,75,188,62,
+0.2,11120,156,94,148,102,158,92,
+0.3,22036,243,7,243,7,243,7,
+0.4,22948,246,4,246,4,245,5,
+0.5,22834,243,7,243,7,242,8,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,6
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13869,210,40,175,75,188,62,
+0.1,13869,210,40,175,75,188,62,
+0.2,14074,197,53,189,61,192,58,
+0.3,21949,243,7,242,8,242,8,
+0.4,22701,242,8,242,8,241,9,
+0.5,22920,243,7,243,7,243,7,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,7
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13869,210,40,175,75,188,62,
+0.1,13869,210,40,175,75,188,62,
+0.2,12819,185,65,176,74,179,71,
+0.3,21949,243,7,242,8,242,8,
+0.4,22531,241,9,241,9,240,10,
+0.5,23033,245,5,245,5,245,5,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,8
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13869,210,40,175,75,188,62,
+0.1,13869,210,40,175,75,188,62,
+0.2,13014,188,62,180,70,186,64,
+0.3,21888,243,7,243,7,243,7,
+0.4,23118,247,3,247,3,246,4,
+0.5,23033,245,5,245,5,245,5,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,9
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13869,210,40,175,75,188,62,
+0.1,13869,210,40,175,75,188,62,
+0.2,13268,188,62,180,70,185,65,
+0.3,21888,243,7,243,7,243,7,
+0.4,22955,246,4,246,4,243,7,
+0.5,23033,245,5,245,5,245,5,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,
+, History Time Limit ,10
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,13869,210,40,175,75,188,62,
+0.1,13869,210,40,175,75,188,62,
+0.2,13268,188,62,180,70,185,65,
+0.3,21888,243,7,243,7,243,7,
+0.4,22982,244,6,244,6,242,8,
+0.5,23038,243,7,243,7,243,7,
+0.6,23002,243,7,243,7,243,7,
+0.7,22743,239,11,239,11,239,11,

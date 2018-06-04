@@ -1,0 +1,11 @@
+ , , ,Welcome To My Trace File 
+, History Time Limit ,1
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,52322,155,95,150,100,156,94,
+0.1,56766,166,84,163,87,164,86,
+0.2,57196,176,74,176,74,176,74,
+, History Time Limit ,2
+Threshold,Packets in network,Destination 1 Unique,Destination 1 Loss,Destination 2 Unique,Destination 2 Loss,Destination 3 Unique,Destination 3 Loss
+0.0,12885,0,0,0,0,0,0,
+0.1,53166,158,92,159,91,159,91,
+0.2,55804,179,71,178,72,178,72,

@@ -54,10 +54,10 @@ for i in $(seq 1 1 10)
 		tail -2 count.tr | head -1 | grep -o  '[0-9]*$'| tr -d '\n'  >> $2
 		echo -n "," >> $2
 		#Insert number of Coded Packets
-		grep -o 'rcv code packet:[0-9]*' count.tr | tail -1 | grep -o '[0-9]*' | tr -d '\n' >>$2
+		grep -o '^rcv code packet:[0-9]*$' count.tr | tail -1 | grep -o '[0-9]*' | tr -d '\n' >>$2
 		echo -n "," >> $2
 		#Insert Number of Non coded packets		
-		grep -o 'rcv normal pkt:[0-9]*' count.tr | tail -1 | grep -o '[0-9]*' | tr -d '\n' >>$2
+		grep -o '^rcv normal pkt:[0-9]*$' count.tr | tail -1 | grep -o '[0-9]*' | tr -d '\n' >>$2
 		echo -n "," >> $2
 		#Unique Packets D1
 		tail -1 dest.tr | grep -o '1' | wc -l | tr -d '\n'>> $2

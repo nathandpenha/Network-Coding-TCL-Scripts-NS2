@@ -78,27 +78,27 @@ $node(0) set Z_ 0
 
 
 for {set i 1} {$i<$val(nn)} {incr i} {
-	 if {[expr {$incrval==10}]} {
-		set yval [expr $yval + 70]
-		set incrval 0
-		set xval 0		
-	}
-	 
-	set node($i) [$ns node]
-	$node($i) random-motion 0
-	set udp($i) [new Agent/SB]
-	$ns attach-agent $node($i) $udp($i)
-	$udp($i) set packetSize_ 1000
-	$node($i) set X_ $xval
-	$node($i) set Y_ $yval
-	$node($i) set Z_ 0
+     if {[expr {$incrval==10}]} {
+        set yval [expr $yval + 70]
+        set incrval 0
+        set xval 0        
+    }
+     
+    set node($i) [$ns node]
+    $node($i) random-motion 0
+    set udp($i) [new Agent/SB]
+    $ns attach-agent $node($i) $udp($i)
+    $udp($i) set packetSize_ 1000
+    $node($i) set X_ $xval
+    $node($i) set Y_ $yval
+    $node($i) set Z_ 0
 
-	puts $xval
-	puts $yval
-	 set xval [expr $xval +70 ]
-	
-	
-	set incrval [expr $incrval+1]
+    puts $xval
+    puts $yval
+     set xval [expr $xval +70 ]
+    
+    
+    set incrval [expr $incrval+1]
 }
 
 $node(0) set X_ 350.0
@@ -138,7 +138,7 @@ set udp0 [new Agent/UDP]
 
 set cbr0 [new Application/Traffic/CBR]
         $cbr0 attach-agent $udp(0)
-        $udp(0) set packetSize_ 536	# set MSS to 536 bytes;
+        $udp(0) set packetSize_ 536    # set MSS to 536 bytes;
 
         set null0 [new Agent/Null]
         $ns attach-agent $node(1) $null0
@@ -183,26 +183,26 @@ set n(8) 45
 
 
 
-	for {set i 0} {$i < 26} {incr i 1} {
+    for {set i 0} {$i < 26} {incr i 1} {
 
 
-	for {set j 1} {$j < 9} {incr j} {
+    for {set j 1} {$j < 9} {incr j} {
 
-	if {$j==1} {
-	set onex $posx(1)	
-	set oney $posy(1)			
-			}
+    if {$j==1} {
+    set onex $posx(1)    
+    set oney $posy(1)            
+            }
 
 
-	if {$j<8} {
-	set posx($j) $posx([expr $j+1])	
-	set posy($j) $posy([expr $j+1])			
-	
+    if {$j<8} {
+    set posx($j) $posx([expr $j+1])    
+    set posy($j) $posy([expr $j+1])            
+    
 } else {
-	set posx(8)  $onex	
-	set posy(8) $oney			
+    set posx(8)  $onex    
+    set posy(8) $oney            
 
-	}
+    }
 
 $ns at $i "$node($n($j)) setdest $posx($j) $posy($j) 150"
 }
@@ -231,6 +231,9 @@ $ns at $val(stop) "finish"
 $ns at $val(stop) "puts \"done\" ; $ns halt"
 puts "before sim run"
 $ns run
+
+
+
 
 
 

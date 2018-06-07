@@ -137,7 +137,7 @@ proc finish {} {
     $ns flush-trace
     close $tracefile
     close $namfile
-    #exec nam out.nam &
+#    exec nam out.nam &
     exit 0
 }
 
